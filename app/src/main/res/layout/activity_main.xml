@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:text="Menjumlahkan Bilangan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:text="Masukan bilangan pertama"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/edt_bilA"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Masukan bilangan Kedua"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/edt_bilB"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btn_hitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hasil Penjumlahan"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+    <EditText
+        android:id="@+id/edt_hasil"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+</LinearLayout>
